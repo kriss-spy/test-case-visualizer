@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+.next/
+.nuxt/
+dist/
+
+# SvelteKit
+.svelte-kit/
+
+# Next.js
+.next
+
+# Nuxt.js
+.nuxt
+.output
+dist/
+
+# Local development settings
+.vscode/settings.json
